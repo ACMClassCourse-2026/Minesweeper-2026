@@ -11,7 +11,7 @@ extern int total_mines;  // The count of mines of the game map.
 // You MUST NOT use any other external variables except for rows, columns and total_mines.
 
 /**
- * @brief The definition of function Execute(int, int, bool)
+ * @brief The definition of function Execute(int, int, int)
  *
  * @details This function is designed to take a step when player the client's (or player's) role, and the implementation
  * of it has been finished by TA. (I hope my comments in code would be easy to understand T_T) If you do not understand
@@ -30,8 +30,8 @@ void Execute(int r, int c, int type);
 /**
  * @brief The definition of function InitGame()
  *
- * @details This function is designed to initialize the game. It should be called at the beginning of the game, which
- * will read the scale of the game map and the first step taken by the server (see README).
+ * @details This function is designed to initialize the client state. It should be called at the beginning of the game,
+ * after InitMap() has read the map scale. It reads and executes the first step provided by the input (see README).
  */
 void InitGame() {
   // TODO (student): Initialize all your global variables!
