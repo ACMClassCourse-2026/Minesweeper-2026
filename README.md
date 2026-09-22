@@ -32,6 +32,7 @@
         - [关于评分机制及其调整](#关于评分机制及其调整)
       - [A班](#a班)
       - [B班](#b班)
+      - [Bonus](#bonus)
   - [Special Thanks](#special-thanks)
 
 ## 简介
@@ -367,6 +368,11 @@ python3 check.py
   - `Rubbish`-`Baseline1` 5%
   - `Baseline1`-`Baseline2` 10%
 - Code Review 20%
+
+#### Bonus
+- 理论上不存在AC的标准答案，但是如果你能通过一些“非法”手段获得OJ数据点并AC，那么你可以获得 5%的bonus分数
+
+**得分上限为 110%，溢出分数直接算入期末总评**
 
 ## Special Thanks
 
